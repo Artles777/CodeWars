@@ -1,4 +1,4 @@
-function palindrom(word) {
+function palendrom(word) {
   const arrWord = word.toLowerCase().split("");
   return (
     JSON.stringify(arrWord.filter((w, i) => i < arrWord.length / 2)) ===
@@ -6,4 +6,4 @@ function palindrom(word) {
   );
 }
 
-export default palindrom;
+export default palendrom;
